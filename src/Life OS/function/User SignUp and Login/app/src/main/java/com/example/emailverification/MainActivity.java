@@ -2,6 +2,7 @@ package com.example.emailverification;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,11 +19,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void signUp(View view){
         Intent intent = new Intent(this, sign_up.class);
-        startActivity(intent);
+        Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        startActivity(intent, b);
     }
 
     public void userLogin(View view){
         Intent intent = new Intent(this, login.class);
-        startActivity(intent);
+        Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        startActivity(intent, b);
     }
 }

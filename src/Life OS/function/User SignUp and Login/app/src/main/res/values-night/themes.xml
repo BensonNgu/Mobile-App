@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EmailVerification" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+<!--        <item name="android:windowActivityTransitions">true</item>-->
+<!--        <item name="android:windowEnterTransition">@transition/trans_anim_in</item>-->
+<!--        <item name="android:windowExitTransition">@transition/trans_anim_out</item>-->
+
+
+    </style>
+
+    <style name="Theme.EmailVerification" parent="Base.Theme.EmailVerification" >
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/trans_anim_in</item>
+        <item name="android:windowExitTransition">@transition/trans_anim_out</item>
+    </style>
+</resources>

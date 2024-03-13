@@ -18,7 +18,11 @@ public class sign_up extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up);
     }
 
-    public void register(View view){
+    public void previous(View view){
+        //
+    }
+
+    public void next(View view){
 
     }
 }

@@ -17,14 +17,14 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    public void login(View view){
-        EditText etPassword = findViewById(R.id.tvPasswordLogin);
-        String password = etPassword.getText().toString();
-        if(!(password.isEmpty()) && password.equalsIgnoreCase("123456")){
-            finish();
-            Toast.makeText(this, "You have login successfully", Toast.LENGTH_SHORT);
-        }else if(password.isEmpty()){
-            Toast.makeText(this, "Password cannot left blank", Toast.LENGTH_SHORT);
-        }
-    }
+//    public void login(View view){
+//        EditText etPassword = findViewById(R.id.tvPasswordLogin);
+//        String password = etPassword.getText().toString();
+//        if(!(password.isEmpty()) && password.equalsIgnoreCase("123456")){
+//            finish();
+//            Toast.makeText(this, "You have login successfully", Toast.LENGTH_SHORT);
+//        }else if(password.isEmpty()){
+//            Toast.makeText(this, "Password cannot left blank", Toast.LENGTH_SHORT);
+//        }
+//    }
 }

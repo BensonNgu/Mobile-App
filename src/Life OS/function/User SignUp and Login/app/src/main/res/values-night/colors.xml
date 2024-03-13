@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="colorPrimary">#000B25</color>
+    <color name="colorPrimaryVariant">#41AEAEAE</color>
+
+
+    <color name="colorSecondary">#FFFFFFFF</color>
+    <color name="colorSecondaryVariant">#A1A1A1</color>
+
+    <color name="red">#E53935</color>
+
+    <color name="transparent">#00FFFFFF</color>
 </resources>
